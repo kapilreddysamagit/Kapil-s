@@ -1,0 +1,59 @@
+WSC: Creating a new connection to https://login.salesforce.com/services/Soap/u/29.0 Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>kapilreddy.sama@gmail.com</m:username>
+   <m:password>Temp@2013</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 200 OK]
+Date=[Wed, 12 Feb 2014 22:23:50 GMT]
+Content-Length=[791]
+Content-Encoding=[gzip]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <loginResponse>
+      <result>
+        <metadataServerUrl>https://ap1.salesforce.com/services/Soap/m/29.0/00D90000000YYDt</metadataServerUrl>
+        <passwordExpired>false</passwordExpired>
+        <sandbox>false</sandbox>
+        <serverUrl>https://ap1.salesforce.com/services/Soap/u/29.0/00D90000000YYDt</serverUrl>
+        <sessionId>00D90000000YYDt!AQwAQBy_3rAEZHHkAV7Asd8veP0J5Mm5ViQkl.KzLnGPZSJCuk1bka1pRUgxs3ftiGxMuIlIj4A64j7f5VXYCYY3x5EnOdim</sessionId>
+        <userId>00590000000PH3wAAG</userId>
+        <userInfo>
+          <accessibilityMode>false</accessibilityMode>
+          <currencySymbol xsi:nil="true"/>
+          <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+          <orgDefaultCurrencyIsoCode xsi:nil="true"/>
+          <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+          <orgHasPersonAccounts>false</orgHasPersonAccounts>
+          <organizationId>00D90000000YYDtEAO</organizationId>
+          <organizationMultiCurrency>true</organizationMultiCurrency>
+          <organizationName>Zensar technologies</organizationName>
+          <profileId>00e90000000onJEAAY</profileId>
+          <roleId>00E90000000m3ssEAA</roleId>
+          <sessionSecondsValid>7200</sessionSecondsValid>
+          <userDefaultCurrencyIsoCode>INR</userDefaultCurrencyIsoCode>
+          <userEmail>kapilreddy.sama@gmail.com</userEmail>
+          <userFullName>Vipulreddy sama</userFullName>
+          <userId>00590000000PH3wAAG</userId>
+          <userLanguage>en_US</userLanguage>
+          <userLocale>en_AU</userLocale>
+          <userName>kapilreddy.sama@gmail.com</userName>
+          <userTimeZone>Asia/Colombo</userTimeZone>
+          <userType>Standard</userType>
+          <userUiSkin>Theme3</userUiSkin>
+        </userInfo>
+      </result>
+    </loginResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
+------------ Response end   ----------
